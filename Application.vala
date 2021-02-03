@@ -15,13 +15,16 @@ public class MyApp : Gtk.Application {
 			margin=12
 		};
 
+		var label=new Gtk.Label("Hello again world");
+		
 		button_hello.clicked.connect(()=>{
 			button_hello.label="Hello World";
 			button_hello.sensitive=false;
 		});
 /* Gtk.Label label = new Gtk.Label ("Hello, GTK");
 		window.add (label);*/
-		window.add(button_hello);
+		window.add(label);
+		//window.add(button_hello);
 		window.show_all ();
 	}
 
