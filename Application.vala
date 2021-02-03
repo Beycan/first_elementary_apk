@@ -1,7 +1,7 @@
 public class MyApp : Gtk.Application {
 	public MyApp () {
 		Object(
-            //application_id: "testing.my.application",
+            application_id: "com.github.Beycan.first_elementary_apk",
 				flags: ApplicationFlags.FLAGS_NONE);
 	}
 
